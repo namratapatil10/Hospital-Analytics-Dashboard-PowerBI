@@ -7,7 +7,8 @@ The objective of this project is to analyze patient visits, revenue trends, depa
 
 This project demonstrates the complete BI workflow including data cleaning, data modeling, DAX calculations, and professional dashboard design to transform raw healthcare data into meaningful business insights.
 Dashboard
- 
+ <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/542159fb-36ba-4e4d-9eb0-7da61fc2290d" />
+
 Key Insights
 
 Orthopedics records the highest patient visits due to frequent injury and follow-up cases.
