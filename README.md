@@ -6,8 +6,11 @@ The Hospital Performance Analytics Dashboard is an end-to-end healthcare data an
 The objective of this project is to analyze patient visits, revenue trends, department performance, demographics, doctor workload, city-wise distribution, and payment preferences to support data-driven decision-making in a multispeciality hospital.
 
 This project demonstrates the complete BI workflow including data cleaning, data modeling, DAX calculations, and professional dashboard design to transform raw healthcare data into meaningful business insights.
+
+
 Dashboard
  <img width="940" height="534" alt="image" src="https://github.com/user-attachments/assets/542159fb-36ba-4e4d-9eb0-7da61fc2290d" />
+
 
 Key Insights
 
@@ -26,6 +29,7 @@ Hospital visits increase during monsoon and winter months.
 Cash/Card is the most preferred payment method.
 
 A positive relationship exists between patient age and treatment cost.
+
 
 Step 1: Dataset Overview
 
@@ -57,6 +61,8 @@ Payment Method
 Total Records: 10,000
 File Type: CSV
 
+
+
 Step 2: Data Cleaning & Transformation (ETL)
 
 Performed using Power Query in Power BI.
@@ -74,6 +80,8 @@ Extracted Year and Month from Visit Date
 Created Age Groups (0–17, 18–35, 36–55, 56+)
 
 Cleaned formatting and ensured consistency
+
+
 
 Step 3: Data Modeling & DAX Calculations
 
@@ -96,6 +104,8 @@ Total Revenue = SUM(hospital_visits[TreatmentCost])
 Avg Cost Per Visit = DIVIDE([Total Revenue], [Total Visits])
 Visit YoY % = DIVIDE([Total Visits] - [Visits LY], [Visits LY])
 
+
+
 Step 4: Dashboard Design
 
 Clean and professional layout
@@ -107,6 +117,8 @@ Clear separation of trends, demographics, and performance
 Interactive slicers for Year, Department, Gender, and City
 
 Consistent color theme and typography
+
+
 
 Step 5: Visualizations Used
 
@@ -123,6 +135,8 @@ Bar Chart: Visits by Age Group
 Treemap: City-wise Patient Distribution
 
 Scatter Plot: Age vs Treatment Cost
+
+
 Step 6: Tools & Technologies
 
 Power BI Desktop
@@ -134,6 +148,8 @@ DAX
 Data Modeling (Star Schema)
 
 CSV Dataset
+
+
 Step 7: Project Outcome
 
 This dashboard helps hospital management to:
@@ -147,6 +163,8 @@ Monitor revenue and seasonal visit trends
 Analyze doctor workload distribution
 
 Improve planning, staffing, and operational efficiency
+
+
 Key Skills Demonstrated
 
 End-to-end data cleaning and transformation
@@ -158,6 +176,8 @@ Data modeling and relationships
 Professional dashboard design
 
 Business insight generation using healthcare data
+
+
 Conclusion
 This project showcases the complete Power BI analytics lifecycle—from raw data to actionable insights.
 It highlights how healthcare organizations can leverage data analytics to improve patient care, operational efficiency, and strategic decision-making.
